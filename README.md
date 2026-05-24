@@ -14,9 +14,10 @@
 [![Burp Suite](https://img.shields.io/badge/Burp_Suite-2022.8%2B-FF6633?style=flat-square)](https://portswigger.net/burp)
 [![Version](https://img.shields.io/badge/Version-1.0.0-28A745?style=flat-square)](https://github.com/omkar-mirkute/burpmax/releases)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](LICENSE)
+[![Views](https://hits.sh/github.com/ommirkute/BurpMax.svg?style=flat-square&label=Views&color=6B21A8&labelColor=0d1220)](https://hits.sh/github.com/ommirkute/BurpMax/)
 [![Active Probes](https://img.shields.io/badge/Active_Probes-29-DC3545?style=flat-square)](#active-scanner--29-probes)
 [![Passive Checks](https://img.shields.io/badge/Passive_Checks-13-6F42C1?style=flat-square)](#passive-scanner--13-checkers)
-[![Author](https://img.shields.io/badge/Author-Omkar_Mirkute-0D6EFD?style=flat-square)](https://www.linkedin.com/in/omkar-mirkute/)
+[![Author](https://img.shields.io/badge/Author-Omkar_Mirkute-0D6EFD?style=flat-square)](https://github.com/omkar-mirkute)
 
 <br/>
 
@@ -31,6 +32,7 @@
 BurpMax is a feature-rich Burp Suite extension that delivers automated active and passive vulnerability scanning, OOB detection, WAF evasion, authenticated scanning with session health monitoring, CVSS 4.0 scoring, scan checkpointing, smart crawling with stack fingerprinting, and professional PDF/DOCX/CSV report generation. These are capabilities that are either locked behind Burp Professional or require multiple separate tools.
 
 BurpMax gives Burp Community Edition users access to Pro-grade scanning features including automated active scanning with 29 probes, out-of-band interaction tracking via Interactsh, scan checkpointing with resume, professional PDF/DOCX reports with CVSS 4.0 and PoC screenshots, and more, at no extra cost.
+
 
 ![BurpMax UI](docs/images/burpmax-ui.svg)
 
@@ -47,7 +49,7 @@ BurpMax gives Burp Community Edition users access to Pro-grade scanning features
 
 ### Option A - Pre-built JAR (Recommended)
 
-1. Download `burpmax-1.0.0.jar` from the [**Releases**](https://github.com/ommirkute/BurpMax/releases/download/v1.0.0/burpmax-1.0.0.jar) page
+1. Download `burpmax-1.0.0.jar` from the [**Releases**](../../releases) page
 2. Open Burp Suite
 3. Go to **Extensions** tab in the top navigation
 4. Click the **Add** button
@@ -877,10 +879,6 @@ burpmax/
 +-- LICENSE
 +-- README.md
 ```
-
----
-
----
 
 ---
 

@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Extension-Name: BurpMax
+Extension-Version: 1.0.0
+Extension-Author: Omkar Mirkute
+Extension-Description: Passive and active vulnerability scanner for Burp Suite with PDF/DOCX/CSV report generation
+Built-By: BurpMax Build System
+Build-Jdk: 17
+Build-Time: 2026-05-17
+

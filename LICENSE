@@ -1,0 +1,53 @@
+MIT License
+
+Copyright (c) 2026 Omkar Mirkute
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+Additional Terms
+
+BurpMax is a security testing tool. Use of this software is subject to the
+following additional conditions:
+
+1. Authorised use only. You may only use BurpMax against systems and
+   applications for which you have explicit written authorisation to conduct
+   security testing. Unauthorised use against systems you do not own or do
+   not have permission to test is prohibited and may be illegal under the
+   Computer Fraud and Abuse Act (CFAA), the Computer Misuse Act (CMA),
+   and equivalent legislation in your jurisdiction.
+
+2. No warranty for security findings. The author makes no representation
+   that BurpMax will identify all vulnerabilities in a tested system.
+   Security assessments conducted using BurpMax should be part of a
+   comprehensive security programme and not relied upon as the sole means
+   of identifying security weaknesses.
+
+3. Responsible disclosure. If you discover vulnerabilities in third-party
+   systems using BurpMax, you are encouraged to follow responsible
+   disclosure practices and notify the affected organisation before
+   publishing any findings.
+
+4. No liability. In no event shall the author be liable for any damages,
+   legal consequences, or other adverse outcomes arising from the use or
+   misuse of this software.
+
+These additional terms supplement the MIT licence above and do not restrict
+the rights granted therein for lawful, authorised use.

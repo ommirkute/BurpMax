@@ -32,12 +32,6 @@ BurpMax is a feature-rich Burp Suite extension that delivers automated active an
 
 BurpMax gives Burp Community Edition users access to Pro-grade scanning features including automated active scanning with 29 probes, out-of-band interaction tracking via Interactsh, scan checkpointing with resume, professional PDF/DOCX reports with CVSS 4.0 and PoC screenshots, and more, at no extra cost.
 
----
-
-## Screenshots
-
-19 vulnerabilities identified across a target - 5 Critical, 8 High, 6 Medium - with Log4Shell selected showing OOB-confirmed DNS callback evidence, CVSS 4.0 score, remediation guidance, and analyst notes.
-
 ![BurpMax UI](docs/images/burpmax-ui.svg)
 
 ---

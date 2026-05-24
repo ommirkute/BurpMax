@@ -47,7 +47,7 @@ BurpMax gives Burp Community Edition users access to Pro-grade scanning features
 
 ### Option A - Pre-built JAR (Recommended)
 
-1. Download `burpmax-1.0.0.jar` from the [**Releases**](../../releases) page
+1. Download `burpmax-1.0.0.jar` from the [**Releases**](https://github.com/ommirkute/BurpMax/releases/download/v1.0.0/burpmax-1.0.0.jar) page
 2. Open Burp Suite
 3. Go to **Extensions** tab in the top navigation
 4. Click the **Add** button
